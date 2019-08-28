@@ -9,15 +9,15 @@ from setuptools import setup, find_packages
 # python setup.py bdist_wheel
 setup( 
     name="HProxy",
-    version="0.1.{buildno}",
+    version="0.1.0",
     keywords=("http proxy", "proxy base on host"),
     description="http proxy base on host",
     long_description="http proxy base on host",
     license="GPL V3",
 
-    url="https://git.corpautohome.com/chenxiaowu/hproxy",
+    url="https://github.com/five3/hproxy",
     author="Xiaowu Chen",
-    author_email="chenxiaowu@autohome.com.cn",
+    author_email="five3@163.com",
 
     package_dir={'HProxy': 'HProxy'},         # 指定哪些包的文件被映射到哪个源码包
     packages=['HProxy'],       # 需要打包的目录。如果多个的话，可以使用find_packages()自动发现
